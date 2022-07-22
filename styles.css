@@ -1,0 +1,57 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.border-border {
+  border: 4px solid #1767cf;
+  margin: 20px auto;
+  max-width: 700px;
+  padding: 15px;
+  border-radius: 8px;
+  background: lemonchiffon;
+}
+
+h1 {
+  color: blue;
+}
+h2 {
+  font-size: 34px;
+}
+h3 {
+  font-size: 24px;
+  color: blueviolet;
+}
+
+span {
+  opacity: 50%;
+}
+#celsius:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+#fahrenheit:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.description {
+  color: rgb(1, 12, 19);
+  margin-bottom: 60px;
+}
+
+.temp-day {
+  position: relative;
+  font-family: "Lato", sans-serif;
+}
+.temp-night {
+  position: relative;
+  font-family: "Lato", sans-serif;
+}
+
+.weather-info {
+  position: relative;
+  left: 45px;
+}
+.week-days {
+  position: relative;
+  text-align: center;
+}
